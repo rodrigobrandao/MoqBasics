@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MoqBasics\MoqBasics.csproj">
+      <Project>{77a49697-6788-4e34-bc41-51d110851f02}</Project>
+      <Name>MoqBasics</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
