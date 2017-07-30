@@ -1,2 +1,2 @@
 # MoqBasics
-Unit Test using Mock, Unit and FluentAssertions
+Unit Test using Mock, NUnit and FluentAssertions
